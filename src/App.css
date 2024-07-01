@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.currency {
+    display: flex;
+    align-items: center;
+}
+
+
+.currency span {
+    margin-right: 0.5rem;
+    font-size: 1rem; 
+}
+
+.budget-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.currency-prefix {
+    position: absolute;
+    left: 10px;
+    font-size: 1rem;
+    pointer-events: none;
+}
+
+.budget-input {
+    padding-left: 30px; /* Adjust this value to ensure enough space for the currency prefix */
+    width: 100px; /* Adjust the width as needed */
+}
+
+button {
+    margin-left: 5px;
+}
+
+.item-button {
+    color: green;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2em;
+    margin-right: 5px;
+}
+
+.item-button:hover {
+    color: darkgreen;
+}
+
+
+
